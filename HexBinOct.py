@@ -5,6 +5,8 @@ while loop == True:
 	print("------------")
 	answer = input("Zahl in Hexadezimal, Binär oder Octal ausgeben? [Hex, Bin, Oct] ")
 	
+# if "Hexadecimal, Binary or Octal" then "..."
+# for Hexadecimal
 	if answer == "Hex" or answer  == "Hexadezimal":
 		wert = int(input('Zahl in Hex umwandeln:'))
 		x = hex(wert)
@@ -16,6 +18,7 @@ while loop == True:
 		else:
 			break
 			
+# for Binary
 	if answer == "Bin" or answer == "Binär":
 		wert2 = int(input('Zahl in Bin umwandeln:'))
 		y = bin(wert2)
@@ -26,7 +29,7 @@ while loop == True:
 			loop = True
 		else:
 			break
-			
+# for Octal	
 	if answer == "Oct" or answer == "Octal":
 		wert3 = int(input('Zahl in Oct umwandeln:'))
 		z = oct(wert3)
