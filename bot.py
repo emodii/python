@@ -47,7 +47,7 @@ while loop == True:
 		end()
 			
 	if next == "Wer ist dein Besitzer?" or next == "Wer hat dich produziert?":
-		print("Bot: Mein Besitzer und Entwickler ist Josua G. auch "emodi" genannt. Er entwickelte mich als Experiment in 2018.")
+		print("Bot: Mein Besitzer und Entwickler ist Josua G., auch emodi genannt. Er entwickelte mich als Experiment in 2018.")
 		end()
 
 	if next == "Wie spät ist es?" or next == "Uhrzeit":
